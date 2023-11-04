@@ -1,2 +1,23 @@
-<h1 class="text-center text-6xl tracking-tight font-bold">{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<header>
+  <nav>
+    <div class="flex justify-between">
+      <a href="#">{{ .Title }}</a>
+      <div id="navbarSupportedContent">
+        <ul class="flex justify-end">
+          <li class="ml-6">
+            <a aria-current="page" href="#">Service</a>
+          </li>
+            <li class="ml-6">
+            <a aria-current="page" href="#">About</a>
+          </li>
+         <li class="ml-6">
+            <a aria-current="page" href="#">Blog</a>
+          </li>
+         <li class="ml-6">
+            <a aria-current="page" href="#">Contact</a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+</header>
