@@ -1382,8 +1382,24 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-full {
