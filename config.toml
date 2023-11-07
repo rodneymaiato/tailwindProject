@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mytwproj.netlify.app'
 languageCode = 'en-us'
 title = 'RM Bookkeeping'
 theme = 'my-theme'
