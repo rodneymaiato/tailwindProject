@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .button {
-  @apply rounded-md py-2 px-2 bg-green-600 hover:bg-green-700 transition ease-in-out delay-75 text-white text-xl block text-center w-5/6 m-auto font-bold
+  @apply rounded-md py-2 px-2 bg-blue-600 hover:bg-blue-700 transition ease-in-out delay-75 text-white text-xl block text-center w-5/6 m-auto font-bold
 }
 
