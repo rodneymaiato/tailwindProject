@@ -1,11 +1,13 @@
 <section class="mb-8 p-4 md:w-2/3 md:m-auto">
   <h2 class="text-3xl font-bold text-slate-800 text-center">Contact us️</h2>
-  <form class="container border-solid border-2 border-slate-300 rounded-md  my-4 px-2 py-4 bg-slate-200" id="contact" name="contact" method="POST" netlify>
+
+  <form class="container border-solid border-2 border-slate-300 rounded-md  my-4 px-2 py-4 bg-slate-200" id="contact"
+    name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
     <p class="hidden">
-    <label>
-      Don’t fill this out if you’re human: <input name="bot-field" />
-    </label>
-  </p>
+      <label>
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
+    </p>
 
     <p class="my-4">
       <label>Name<input class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y"
@@ -21,6 +23,9 @@
     <label>Message<textarea class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y"
         name="message" placeholder="Indicate when and how you would like to be contacted"></textarea></label>
     </p>
+    </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
     <p>
       <button class="button" type="submit">Send</button>
     </p>
