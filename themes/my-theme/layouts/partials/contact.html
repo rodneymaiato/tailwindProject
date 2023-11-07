@@ -10,22 +10,21 @@
     </p>
 
     <p class="my-4">
-      <label>Name<input class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y"
-          type="text" name="name" placeholder="First name" /></label>
+      <label><input class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y" type="text"
+          name="name" placeholder="Name" /></label>
     </p>
     <p>
-      <label>Email <span class="text-xs test-slate-200 italic">(We will never share your email with anyone)</span>
-        <p><input class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y" type="email"
-            name="email" placeholder="example: bob@gmail.com" />
+      <label>
+        <input class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y" type="email"
+          name="email" placeholder="Email" />
       </label>
     </p>
-
-    <label>Message<textarea class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y"
-        name="message" placeholder="Indicate when and how you would like to be contacted"></textarea></label>
+    <p>
+      <label><textarea class="border-solid border-2 border-slate-300 rounded-md p-3 w-full mt-2 mb-4 resize-y"
+          name="message" placeholder="Message . . . Tell us when is best to reach you"></textarea></label>
     </p>
-    </p>
-  <div data-netlify-recaptcha="true"></div>
-  <p>
+    <!-- Captcha -->
+    <div class="mb-4" data-netlify-recaptcha="true"></div>
     <p>
       <button class="button" type="submit">Send</button>
     </p>
