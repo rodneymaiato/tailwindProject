@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <article class="prose prose-slate">
+    <article class="prose prose-slate prose-li:mb-8">
       <header>
         <h1 >{{ .Title }}</h1>
       </header>
@@ -9,7 +9,8 @@
       <!-- Ranges through content/posts/*.md -->
       {{ range .Pages }}
         <li>
-          <a class="no-underline" href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <p><span class="font-light">{{ .Date.Format "Jan 02, 2006" }} -</span> {{ .Summary }}<a class="text-slate-700 px-1 mx-2 border-solid border border-slate-700 rounded no-underline" href="{{ .Permalink }}">Read More</a></p>
         </li>
       {{ end }}
     </ul>
