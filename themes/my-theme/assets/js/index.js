@@ -1,7 +1,7 @@
 // Declare variables
 const burger = document.querySelector("#burger");
 const menu = document.querySelector("#menu");
-const navLinks = document.querySelectorAll("#contact-button");
+const navLinks = document.querySelectorAll("#contact-link");
 // Make menu visible after clicking on the hamburger icon
 burger.addEventListener("click", () => {
   if (menu.classList.contains("hidden")) {

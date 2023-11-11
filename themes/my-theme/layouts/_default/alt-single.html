@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="prose prose-ul:list-none">
+  <h1 class="my-12">{{ .Title }}</h1>
+
+  <section>{{ .Content }}</section>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+</article>
+{{ end }}
