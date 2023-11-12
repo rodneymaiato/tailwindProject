@@ -1127,11 +1127,6 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1140,11 +1135,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mb-10 {
@@ -1167,8 +1157,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .mr-4 {
@@ -1183,34 +1181,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mr-0 {
-  margin-right: 0px;
-}
-
-.ml-12 {
-  margin-left: 3rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .block {
   display: block;
 }
@@ -1219,16 +1189,8 @@ video {
   display: inline-block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .grid {
@@ -1360,11 +1322,6 @@ video {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
@@ -1406,9 +1363,14 @@ video {
   padding-bottom: 3rem;
 }
 
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-4 {
@@ -1426,8 +1388,7 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
+.pb-3 {
   padding-bottom: 0.75rem;
 }
 
@@ -1514,6 +1475,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .no-underline {
   text-decoration-line: none;
 }
@@ -1528,12 +1493,30 @@ video {
   color: rgb(51 65 85 / var(--tw-placeholder-opacity));
 }
 
+.placeholder-slate-950::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(2 6 23 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-slate-950::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(2 6 23 / var(--tw-placeholder-opacity));
+}
+
 .placeholder-opacity-70::-moz-placeholder {
   --tw-placeholder-opacity: 0.7;
 }
 
 .placeholder-opacity-70::placeholder {
   --tw-placeholder-opacity: 0.7;
+}
+
+.placeholder-opacity-80::-moz-placeholder {
+  --tw-placeholder-opacity: 0.8;
+}
+
+.placeholder-opacity-80::placeholder {
+  --tw-placeholder-opacity: 0.8;
 }
 
 .button-dark {

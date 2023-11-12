@@ -1,0 +1,34 @@
+<section class="mb-8 p-4 md:w-2/3 md:m-auto">
+  <h2 class="text-3xl font-bold text-slate-800 text-center">Request a Free Consultation️</h2>
+
+  <form class="container border-solid border-2 border-slate-300 rounded-md  my-4 px-2 py-4 bg-slate-200" id="contact"
+    name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+    <p class="hidden">
+      <label>
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
+    </p>
+
+    <p class="my-4">
+      <label><input
+          class="placeholder-slate-700 font-bold placeholder-opacity-70 border border-slate-400 rounded-md p-3 w-full mt-2 mb-4 resize-y"
+          type="text" name="name" placeholder="Name" /></label>
+    </p>
+    <p>
+      <label><input
+          class="placeholder-slate-700 font-bold placeholder-opacity-70 border border-slate-400 rounded-md p-3 w-full mt-2 mb-4 resize-y"
+          type="email" name="email" placeholder="Email" />
+      </label>
+    </p>
+    <p>
+      <label><textarea
+          class="placeholder-slate-700 font-bold placeholder-opacity-70 border border-slate-400 rounded-md p-3 w-full mt-2 mb-4 resize-y"
+          name="message" placeholder="Your message . . ."></textarea></label>
+    </p>
+    <!-- Captcha -->
+    <div class="mb-4 flex justify-center" data-netlify-recaptcha="true"></div>
+    <p>
+      <button class="button" type="submit">Send</button>
+    </p>
+  </form>
+</section>
