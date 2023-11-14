@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 .button-dark {
-  @apply py-3 px-5 bg-slate-950 text-white border-slate-950 border border-solid mr-2;
+  @apply py-3 px-5 inline-block h-full bg-slate-950 text-white border-slate-950 border border-solid;
 }
 .button-light {
-  @apply py-3 px-5 bg-transparent text-slate-950 border-slate-950 border border-solid;
+  @apply py-3 px-5 inline-block h-full bg-transparent text-slate-950 border-slate-950 border border-solid;
 }
+
