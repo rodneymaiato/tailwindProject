@@ -5,5 +5,10 @@
     var user = 'hello';
     var domain = 'rodmaiato.com';
     var element = document.querySelector('#email');
+    if (element) {
     element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+    } else {
+        console.error.("Element not found)"
+                       }
+    
 </script>
