@@ -2,6 +2,7 @@
 <script src="{{ $script.Permalink }}"></script>
 
 <script>
+    window.onload = function showInfo() {
     var user = 'hello';
     var domain = 'rodmaiato.com';
     var element = document.querySelector('#email');
@@ -10,5 +11,5 @@
     } else {
         console.error("Element not found")                   
     }
-    
+    }
 </script>
