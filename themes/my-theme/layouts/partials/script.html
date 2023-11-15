@@ -1,4 +1,9 @@
 {{ $script := resources.Get "js/index.js" }}
 <script src="{{ $script.Permalink }}"></script>
 
-
+<script>
+    var user = 'hello';
+    var domain = 'rodmaiato.com';
+    var element = document.getElementById('email');
+    element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+</script>

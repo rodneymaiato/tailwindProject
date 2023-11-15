@@ -1221,18 +1221,6 @@ video {
   height: 2rem;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -1241,16 +1229,8 @@ video {
   width: 100%;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
 }
 
 .max-w-\[80\%\] {
@@ -1354,11 +1334,6 @@ video {
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1420,11 +1395,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1447,10 +1417,6 @@ video {
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .text-center {
@@ -1527,10 +1493,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .no-underline {
@@ -1876,16 +1838,12 @@ video {
     order: 2;
   }
 
-  .sm\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:col-span-1 {
     grid-column: span 1 / span 1;
   }
 
-  .sm\:flex {
-    display: flex;
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
   }
 
   .sm\:grid {
@@ -1900,20 +1858,12 @@ video {
     width: 100%;
   }
 
-  .sm\:flex-grow {
-    flex-grow: 1;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
   }
 
   .sm\:place-items-center {
@@ -1924,10 +1874,6 @@ video {
     align-items: center;
   }
 
-  .sm\:justify-around {
-    justify-content: space-around;
-  }
-
   .sm\:gap-6 {
     gap: 1.5rem;
   }
@@ -1936,33 +1882,19 @@ video {
     gap: 2rem;
   }
 
-  .sm\:gap-2 {
-    gap: 0.5rem;
-  }
-
   .sm\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .sm\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sm\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .sm\:pb-0 {
@@ -1987,10 +1919,6 @@ video {
     display: flex;
   }
 
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:hidden {
     display: none;
   }
@@ -2001,18 +1929,6 @@ video {
 
   .md\:flex-grow {
     flex-grow: 1;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:place-items-center {
-    place-items: center;
-  }
-
-  .md\:items-center {
-    align-items: center;
   }
 
   .md\:justify-around {
@@ -2026,24 +1942,9 @@ video {
   .md\:pb-0 {
     padding-bottom: 0px;
   }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
