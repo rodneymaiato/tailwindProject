@@ -3,11 +3,11 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ $style := resources.Get "css/style.css" }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   // var m3 = "@", m1 = "hello", m4 = "rod", m2 = ".com", m5 = "maiato";
     var user = 'hello';
     var domain = 'rodmaiato.com';
     var element = document.getElementById('email');
     element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
-</script>
+</script> -->
 
